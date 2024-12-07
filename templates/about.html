@@ -1,0 +1,79 @@
+{% extends 'shop/inheritance.html' %}
+{% block title%} About {% endblock %}
+{% block css%}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg { font-size: 3.5rem; }
+  .main { height: 20vh; }
+}
+{% endblock %}
+
+{% block body%}
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">ONLINE AUCTION SYSTEM</h1>
+      <p>
+        This is developed by Pavan and team....
+      </p>
+      <p>
+        <a class="btn btn-primary btn-lg" href="#" role="button"
+          >Learn more &raquo;</a
+        >
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Instruction 1</h2>
+        <p>
+          Users must register and log in to participate in auctions. Ensure your profile is complete before starting.
+        </p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button"
+            >View details &raquo;</a
+          >
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h2>Instruction 2</h2>
+        <p>
+          Browse available auction items, read descriptions carefully, and check the auction schedule for live events.
+        </p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button"
+            >View details &raquo;</a
+          >
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h2>Instruction 3</h2>
+        <p>
+          During live auctions, place bids in real-time and track the highest bid. Follow auction rules for a smooth experience.
+        </p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button"
+            >View details &raquo;</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <hr />
+  </div>
+  <!-- /container -->
+</main>
+
+{% endblock %}
